@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; 
+  
+}
+img{
+    width:100%;
+    height:100%;
+}
+.big{
+    position: fixed;
+    top: 150px;
+    left:35%;
+    height:500px;
+    width:500px;
+    background-color:teal;
+    border-style: double;
+    padding: 40px;
+}
+.pddd{
+    position:relative;
+    left:120px;
+    font-size: x-large;
+    color: white;
+    font-style: oblique;
+    font-weight: bold;
+}
+.uname{
+    position: relative;
+    top: 50px;
+    left: 60px;
+    color: black;
+    width:300px;
+    height:40px;
+    border-bottom: 3px solid black;
+    text-align: center;
+}
+.pass{
+    position: relative;
+    top: 100px;
+    /*background-color: teal;*/
+    color:black;
+    left: 60px;
+    width:300px;
+    height:40px;
+    border-bottom: 3px solid black;
+    text-align: center;
+}
+a{
+    position: relative;
+    top: 104px;
+    /*background-color: teal;*/
+    color:white;
+    left: 60px;
+    width:300px;
+    height:40px;
+    /*border-bottom: 3px solid black;*/
+}
+.submit{
+    position: relative;
+    top: 150px;
+    /*background-color: teal;*/
+    color: black;
+    left: 60px;
+    width:300px;
+    height:40px;
+    border-bottom: 3px solid black;
+}
+.submit:hover{
+    background-color: teal;
+    border-radius: 20px 20px 20px 20px;
+}
+.pass:hover{
+    border-radius: 20px 20px 20px 20px;
+}
+.uname:hover{
+    border-radius: 20px 20px 20px 20px;
+}
